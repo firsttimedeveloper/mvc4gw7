@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assets productionPageFolder="Content/desktop/ProductionPage/" buttonsFolder="Buttons/" activeBackgroundFolder="ActiveBackground/" passiveBackgroundFolder="PassiveBackground/" slidesFolder="Slides/" itemsNumber="5" >
+<item fileName="1.png" />
+<item fileName="2.png" />
+<item fileName="3.png" />
+<item fileName="4.png" />
+<item fileName="5.png" />
+</assets>

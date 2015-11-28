@@ -1,0 +1,28 @@
+﻿@model IEnumerable<mvc4gw7.TapeItem>
+
+@{
+    ViewBag.Title = "RSS";   
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+</div>
+
+
+<ul class="list">
+    @foreach (var item in Model)
+        {
+            <li><h5><a href="@item.Link">@item.Message</a></h5></li>
+        }
+</ul>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("На главную","Index","Home")
+    </h5>
+</div>
+

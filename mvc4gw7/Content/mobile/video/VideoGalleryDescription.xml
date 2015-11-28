@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery galleryFolder="DemoPage/VideoPage/Gallery/" previewsFolder="Previews/" videosFolder="Videos/" itemsNumber="16" >
+<item1 itemFolder="Item1/" itemTitle="Свадебные зарисовки. 2011">
+<item fileName="1_1" />
+<item fileName="1_2" />
+<item fileName="1_3" />
+</item1>
+<item2 itemFolder="Item2/" itemTitle="Новости. 2011">
+<item fileName="2_1" />
+<item fileName="2_2" />
+</item2>
+<item4 itemFolder="Item4/" itemTitle="Новый год. 2009">
+<item fileName="4_1" />
+</item4>
+<item5 itemFolder="Item5/" itemTitle="Вступления к фильмам. 2010-2011">
+<item fileName="5_1" />
+<item fileName="5_2" />
+<item fileName="5_3" />
+<item fileName="5_4" />
+</item5>
+<item6 itemFolder="Item6/" itemTitle="Ювелирные украшения. 2011">
+<item fileName="6_1" />
+<item fileName="6_2" />
+</item6>
+<item7 itemFolder="Item7/" itemTitle="Очки. 2011">
+<item fileName="7_1" />
+</item7>
+<item8 itemFolder="Item8/" itemTitle="Машина. 2011">
+<item fileName="8_1" />
+</item8>
+<item9 itemFolder="Item9/" itemTitle="Армения. 2011">
+<item fileName="9_1" />
+<item fileName="9_2" />
+<item fileName="9_3" />
+</item9>
+<item10 itemFolder="Item10/" itemTitle="3dsMax. Наработки. 2012">
+<item fileName="10_1" />
+</item10>
+<item11 itemFolder="Item11/" itemTitle="Прогулка на катере. 2012">
+<item fileName="11_1" />
+</item11>
+<item12 itemFolder="Item12/" itemTitle="По следам Beatles. Первый тур. Октябрь, 2012">
+<item fileName="12_1" />
+<item fileName="12_2" />
+<item fileName="12_3" />
+<item fileName="12_4" />
+<item fileName="12_5" />
+<item fileName="12_6" />
+</item12>
+<item13 itemFolder="Item13/" itemTitle="По следам Beatles. Второй тур. Октябрь, 2012">
+<item fileName="13_1" />
+<item fileName="13_2" />
+<item fileName="13_3" />
+<item fileName="13_4" />
+<item fileName="13_5" />
+</item13>
+<item14 itemFolder="Item14/" itemTitle="По следам Beatles. Третий тур. Ноябрь, 2012">
+<item fileName="14_1" />
+<item fileName="14_2" />
+<item fileName="14_3" />
+<item fileName="14_4" />
+</item14>
+<item15 itemFolder="Item15/" itemTitle="Children of this land. Рязань, Рыбное, Март, 2013">
+<item fileName="15_1" />
+<item fileName="15_2" />
+</item15>
+<item16 itemFolder="Item16/" itemTitle="Анимация для свадебного фильма. Июнь, 2013">
+<item fileName="16_1" />
+<item fileName="16_2" />
+<item fileName="16_3" />
+<item fileName="16_4" />
+<item fileName="16_5" />
+<item fileName="16_6" />
+</item16>
+<item17 itemFolder="Item17/" itemTitle="Анимация для свадебного фильма. Август, 2013">
+<item fileName="17_1" />
+<item fileName="17_2" />
+<item fileName="17_3" />
+<item fileName="17_4" />
+<item fileName="17_5" />
+<item fileName="17_6" />
+<item fileName="17_7" />
+<item fileName="17_8" />
+<item fileName="17_9" />
+</item17>
+</gallery>

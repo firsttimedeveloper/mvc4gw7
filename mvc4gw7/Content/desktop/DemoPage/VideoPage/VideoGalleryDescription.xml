@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery galleryFolder="Content/desktop/DemoPage/VideoPage/Gallery/" galleryInnerFolder="DemoPage/VideoPage/Gallery/" previewsFolder="Previews/" videosFolder="Videos/" itemsNumber="7" >
+<item1 itemFolder="Item1/" itemTitle="ABC. Set 1">
+<item fileName="1_1" />
+</item1>
+<item2 itemFolder="Item2/" itemTitle="ABC. Set 2">
+<item fileName="2_1" />
+<item fileName="2_2" />
+<item fileName="2_3" />
+<item fileName="2_4" />
+</item2>
+<item3 itemFolder="Item3/" itemTitle="ABC. Set 3">
+<item fileName="3_1" />
+</item3>
+<item4 itemFolder="Item4/" itemTitle="ABC. Set 4">
+<item fileName="4_1" />
+<item fileName="4_2" />
+<item fileName="4_3" />
+<item fileName="4_4" />
+<item fileName="4_5" />
+<item fileName="4_6" />
+<item fileName="4_7" />
+<item fileName="4_8" />
+<item fileName="4_9" />
+<item fileName="4_10" />
+<item fileName="4_11" />
+<item fileName="4_12" />
+</item4>
+<item5 itemFolder="Item5/" itemTitle="ABC. Set 5">
+<item fileName="5_1" />
+</item5>
+<item6 itemFolder="Item6/" itemTitle="ABC. Set 6">
+<item fileName="6_1" />
+<item fileName="6_2" />
+<item fileName="6_3" />
+<item fileName="6_4" />
+<item fileName="6_5" />
+<item fileName="6_6" />
+<item fileName="6_7" />
+</item6>
+<item7 itemFolder="Item7/" itemTitle="ABC. Set 7">
+<item fileName="7_1" />
+</item7>
+</gallery>
+

@@ -1,0 +1,44 @@
+﻿@model mvc4gw7.Models.LoginModel
+
+@{
+    ViewBag.Title = "Вход";
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+</div>
+
+
+<div class="form_type_A">
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+
+    @Html.ValidationSummary(false, "Не удалось выполнить вход. Исправьте ошибки и повторите попытку")
+        
+
+    @Html.LabelFor(m => m.UserName)<br />
+    @Html.TextBoxFor(m => m.UserName)<br />
+
+    @Html.LabelFor(m => m.Password)<br />
+    @Html.PasswordFor(m => m.Password)
+
+    <br/>
+    <input type="submit" value="Выполнить вход" />
+
+}
+</div>
+
+<div class="footer">
+
+    <h5>
+        @Html.ActionLink("Зарегистрироваться","Register","Account")
+    </h5>
+    <h5>
+        @Html.ActionLink("На главную","Index","Home")
+    </h5>
+
+
+</div>

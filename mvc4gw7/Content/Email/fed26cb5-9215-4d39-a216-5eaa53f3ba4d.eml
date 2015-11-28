@@ -1,0 +1,14 @@
+X-Sender: "ABC"
+ <abc@groundwork.somee.com>
+X-Receiver: miniinternetstore@yandex.ru
+MIME-Version: 1.0
+From: "ABC"
+ <abc@groundwork.somee.com>
+To: miniinternetstore@yandex.ru
+Date: 18 Oct 2015 00:10:47 +0300
+Subject: First email
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+Rmlyc3QgdGVzdCBtZXNzYWdlLiBTZW5kZXI6IGFwcGxpY2F0aW9uLiBFbmNvZGlu
+ZzogVVRGOA==

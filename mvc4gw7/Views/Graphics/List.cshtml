@@ -1,0 +1,27 @@
+﻿@model IEnumerable<mvc4gw7.Models.MediaCollection>
+
+@{
+    ViewBag.Title = "Графика";   
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+</div>
+
+
+<ul class="list">
+    @foreach (var collection in Model)
+        {
+            <li><h4>@Html.ActionLink(collection.ShortTitle, "ShowItem", "Graphics", new { CollectionId = collection.Id }, null)</h4></li>
+        }
+</ul>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("На главную","Index","Home")
+    </h5>
+</div>

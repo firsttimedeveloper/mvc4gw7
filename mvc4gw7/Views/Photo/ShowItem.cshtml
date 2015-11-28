@@ -1,0 +1,35 @@
+﻿@model IEnumerable <mvc4gw7.Models.MediaElement>
+
+@{
+    ViewBag.Title = "Галерея";   
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+</div>
+
+
+<div class="chapter">
+    <h4>@ViewBag.collectionTitle</h4>
+</div>
+
+@foreach (var media in Model) 
+        {
+        <p>
+            @{
+            string file = "/Content/" + ViewBag.collectionFolder + media.File;
+            }
+
+            <img src="@file" alt="image"/>
+        </p>
+        }
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("В каталог", "List", "Photo")
+    </h5>
+</div>

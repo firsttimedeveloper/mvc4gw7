@@ -1,0 +1,43 @@
+﻿@model IEnumerable<mvc4gw7.Models.MediaCollection>
+
+@{
+    ViewBag.Title = "Сообщество";
+    ViewBag.Subtitle = "Коллекции участника";      
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.User</h2>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div>
+    <ul class="list">
+        @foreach (var collection in Model)
+        {
+         <li><h4>@Html.ActionLink(collection.ShortTitle, "ShowCollection", "Community", new {CollectionId=collection.Id}, null)</h4></li>
+        }
+    </ul>
+</div>
+    
+<div class="footer">
+
+    <h5>
+        @Html.ActionLink("Добавить коллекцию", "AddCollection_Attributes", "Community")
+    </h5>
+
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт","LogOff","Account")
+    </h5>
+
+    <h5>
+        @Html.ActionLink("На главную","Index","Home")
+    </h5>
+
+</div>
+
+

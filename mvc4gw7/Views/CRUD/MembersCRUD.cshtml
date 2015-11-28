@@ -1,0 +1,49 @@
+﻿@model System.Web.Security.MembershipUserCollection
+
+@{
+    ViewBag.Title = "Администрирование";
+    ViewBag.Subtitle = "Пользователи";
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class="CRUDtable">
+    <table>
+        <tr>
+            <th>User</th>
+            <th>CreationDate</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (System.Web.Security.MembershipUser member in Model)
+            {
+                <tr>
+                    <td>@member.ProviderUserKey</td>
+                    <td>@member.CreationDate.ToString("HH:mm:ss dd/MM/yyyy")</td>
+                    <td>
+                        @Html.ActionLink("Delete", "EraseMember", "CRUD", new { username = @member.ProviderUserKey }, null)
+                        @Html.ActionLink("Update", "UpdateMember", "CRUD", new { username = @member.ProviderUserKey }, null)
+                    </td>
+                </tr>
+            }
+    </table>
+</div>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("На главную (администрирование)", "Index", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+</div>
+
+
+
+

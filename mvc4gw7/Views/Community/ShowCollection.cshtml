@@ -1,0 +1,43 @@
+﻿@model mvc4gw7.Models.MediaCollection
+
+@{
+    ViewBag.Title = "Сообщество";
+    ViewBag.Subtitle = "Коллекция участника";              
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h2>@Model.UserName</h2>
+    <h1>@Model.Title</h1>
+</div>
+
+
+<div class="chapter">
+    <h4>@Model.Description</h4>
+</div>
+
+@foreach (var media in Model.MediaElements) 
+        {
+        <p class="mobile_still">
+            
+            @{
+            string file = "/Content/" + ViewBag.CollectionFolder + media.File;
+            }
+
+            <img src="@file" alt="image"/>
+        </p>
+        }
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("К списку коллекций участника", "CollectionsList", "Community")
+    </h5>
+
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+
+</div>

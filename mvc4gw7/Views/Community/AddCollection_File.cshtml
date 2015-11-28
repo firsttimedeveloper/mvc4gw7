@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Сообщество";
+    ViewBag.Subtitle = "Добавить коллекцию. Разместить медиа";       
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.User</h2>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class="fileUpload">
+    @using (Html.BeginForm("AddCollection_File", "Community", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+            <input type="file" name="fileUpload"/><br />
+            <input type="submit" value="Загрузить на сервер"/>
+    }
+</div>
+
+<div class="fileUpload">
+    @using (Html.BeginForm("AddCollection_Finish", "Community"))
+    {            
+            <input type="submit" value="Завершить размещение"/>
+    }
+</div>
+
+<div class="footer">
+
+    <h5>
+        @Html.ActionLink("Список коллекций","CollectionsList","Community")
+    </h5>
+
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+
+</div>
+
+
+

@@ -1,0 +1,35 @@
+﻿@model mvc4gw7.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Регистрация";
+    ViewBag.Subtitle = "Подтверждение данных учетной записи";
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class="textMessage_type_A">
+
+    <h4>@Model.Name @Model.Patronymic!</h4>
+    <h5>
+        Пожалуйста, подтвердите данные Вашей учетной записи.
+        Для этого необходимо перейти по ссылке в письме, отправленном на Вашу электронную почту @Model.Email.
+    </h5>
+    <br />
+
+    <h5>С уважением,</h5>
+    <h5>ABC.</h5>
+
+</div>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("На главную","Index","Home")
+    </h5>
+</div>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery galleryFolder="DemoPage/VideoPage/Gallery/" previewsFolder="Previews/" videosFolder="Videos/" itemsNumber="2" >
+<item1 itemFolder="Item1/" itemTitle="Тестовая коллекция 1">
+<item fileName="1_1.flv" />
+<item fileName="1_2.flv" />
+</item1>
+<item2 itemFolder="Item2/" itemTitle="Тестовая коллекция 2">
+<item fileName="2_1.flv" />
+<item fileName="2_2.flv" />
+</item2>
+</gallery>
+

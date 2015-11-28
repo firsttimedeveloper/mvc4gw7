@@ -1,0 +1,56 @@
+﻿@model IEnumerable<mvc4gw7.Models.MediaCollection>
+
+@{
+    ViewBag.Title = "Администрирование";
+    ViewBag.Subtitle = "Список коллекций";              
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class="CRUDtable">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>MemberId</th>
+            <th>ShortTitle</th>
+            <th>Actions</th>
+        </tr>
+        @foreach (var collection in Model)
+            {
+                <tr>
+                    <td>@collection.Id</td>
+                    <td>@collection.UserName</td>            
+                    <td>@collection.ShortTitle</td>            
+                    <td>
+                        @Html.ActionLink("Update", "UpdateMPhotoCollection", "CRUD", new { CollectionId = @collection.Id }, null)                        
+                        @Html.ActionLink("Delete", "EraseCollection", "CRUD", new { CollectionId = @collection.Id }, null)
+                    </td>
+                </tr>
+            }
+    </table>
+</div>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("Сформировать БД (MicrosoftSQLServer) из XML файла", "MicrosoftSQLDataFromXML", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("Сформировать БД (PostgreSQL) из XML файла", "PostgreSQLDataFromXML", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("Записать таблицы БД в XML файл", "XMLFromData", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("На главную (администрирование)", "Index", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+</div>

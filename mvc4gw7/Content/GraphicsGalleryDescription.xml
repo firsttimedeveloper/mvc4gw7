@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery galleryFolder="DemoPage/GraphicsPage/Gallery/" previewsFolder="Previews/" picturesFolder="Graphics/" itemsNumber="5" >
+<item1 itemFolder="Item1/" itemTitle="Эскизы анимации. 2012">
+<item fileName="1_1.jpg" />
+<item fileName="1_2.jpg" />
+</item1>
+<item2 itemFolder="Item2/" itemTitle="Фоны презентации курсовой работы. 2012">
+<item fileName="2_1.jpg" />
+<item fileName="2_2.jpg" />
+<item fileName="2_3.jpg" />
+<item fileName="2_4.jpg" />
+<item fileName="2_5.jpg" />
+<item fileName="2_6.jpg" />
+<item fileName="2_7.jpg" />
+<item fileName="2_8.jpg" />
+<item fileName="2_9.jpg" />
+</item2>
+<item3 itemFolder="Item3/" itemTitle="Фоны меню DVD. 2012. Коллекция 1">
+<item fileName="3_1.jpg" />
+<item fileName="3_2.jpg" />
+<item fileName="3_3.jpg" />
+<item fileName="3_4.jpg" />
+</item3>
+<item4 itemFolder="Item4/" itemTitle="Фоны меню DVD. 2013. Коллекция 2">
+<item fileName="4_1.jpg" />
+<item fileName="4_2.jpg" />
+<item fileName="4_3.jpg" />
+<item fileName="4_4.jpg" />
+<item fileName="4_5.jpg" />
+</item4>
+<item5 itemFolder="Item5/" itemTitle="Фоны меню DVD. 2013. Коллекция 3">
+<item fileName="5_1.jpg" />
+<item fileName="5_2.jpg" />
+<item fileName="5_3.jpg" />
+<item fileName="5_4.jpg" />
+</item5>
+</gallery>
+

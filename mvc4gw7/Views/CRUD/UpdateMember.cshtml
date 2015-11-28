@@ -1,0 +1,62 @@
+﻿@model mvc4gw7.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Администрирование";
+    ViewBag.Subtitle = "Редактирование учетной записи " + Model.UserName;
+}
+
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class= "form_type_B">
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary()
+        <ol>
+            <li>
+                @Html.HiddenFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                <br />                
+                @Html.PasswordFor(m => m.Password, new { value = Model.Password })
+            </li>
+            <li>
+                @Html.LabelFor(m => m.ConfirmPassword)
+                <br />                
+                @Html.PasswordFor(m => m.ConfirmPassword, new {  value = Model.ConfirmPassword })
+            </li>
+            <li>
+                @Html.LabelFor(m=>m.Surname)
+                <br />                
+                @Html.TextBoxFor(m=>m.Surname)
+            </li>
+            <li>
+                @Html.LabelFor(m=>m.Name)
+                <br />                
+                @Html.TextBoxFor(m=>m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m=>m.Patronymic)
+                <br />                
+                @Html.TextBoxFor(m=>m.Patronymic)
+            </li>
+            <li>
+                @Html.LabelFor(m=>m.Email)
+                <br />                
+                @Html.TextBoxFor(m => m.Email)
+            </li>
+        </ol>
+        <input type="submit" value="Изменить" />
+}
+</div>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("Список пользователей", "MembersCRUD", "CRUD")
+    </h5>
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+</div>

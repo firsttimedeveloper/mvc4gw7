@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery galleryFolder="Content/desktop/DemoPage/GraphicsPage/Gallery/" previewsFolder="Previews/" picturesFolder="Graphics/" itemsNumber="5" >
+<item1 itemFolder="Item1/" itemTitle="Эскизы анимации. 2012">
+<item fileName="1_1.jpg" />
+<item fileName="1_2.jpg" />
+</item1>
+<item2 itemFolder="Item2/" itemTitle="Фоны презентации курсовой работы. 2012">
+<item fileName="2_1.jpg" />
+<item fileName="2_2.jpg" />
+<item fileName="2_3.jpg" />
+<item fileName="2_4.jpg" />
+<item fileName="2_5.jpg" />
+<item fileName="2_6.jpg" />
+<item fileName="2_7.jpg" />
+<item fileName="2_8.jpg" />
+<item fileName="2_9.jpg" />
+</item2>
+<item3 itemFolder="Item3/" itemTitle="Фоны меню DVD. 2012. Коллекция 1">
+<item fileName="3_1.jpg" />
+<item fileName="3_2.jpg" />
+<item fileName="3_3.jpg" />
+<item fileName="3_4.jpg" />
+</item3>
+<item4 itemFolder="Item4/" itemTitle="Фоны меню DVD. 2013. Коллекция 2">
+<item fileName="4_1.jpg" />
+<item fileName="4_2.jpg" />
+<item fileName="4_3.jpg" />
+<item fileName="4_4.jpg" />
+<item fileName="4_5.jpg" />
+</item4>
+<item5 itemFolder="Item5/" itemTitle="Фоны меню DVD. 2013. Коллекция 3">
+<item fileName="5_1.jpg" />
+<item fileName="5_2.jpg" />
+<item fileName="5_3.jpg" />
+<item fileName="5_4.jpg" />
+</item5>
+<item6 itemFolder="Item6/" itemTitle="Ювелирные украшения. Коллекция 2. 2011">
+<item fileName="6_1.jpg" />
+<item fileName="6_2.jpg" />
+<item fileName="6_3.jpg" />
+<item fileName="6_4.jpg" />
+<item fileName="6_5.jpg" />
+<item fileName="6_6.jpg" />
+<item fileName="6_7.jpg" />
+<item fileName="6_8.jpg" />
+<item fileName="6_9.jpg" />
+<item fileName="6_10.jpg" />
+<item fileName="6_11.jpg" />
+<item fileName="6_12.jpg" />
+<item fileName="6_13.jpg" />
+</item6>
+<item7 itemFolder="Item7/" itemTitle="Очки. 2011">
+<item fileName="7_1.jpg" />
+<item fileName="7_2.jpg" />
+<item fileName="7_3.jpg" />
+<item fileName="7_4.jpg" />
+<item fileName="7_5.jpg" />
+<item fileName="7_6.jpg" />
+</item7>
+<item8 itemFolder="Item8/" itemTitle="Машина. 2011">
+<item fileName="8_1.jpg" />
+<item fileName="8_2.jpg" />
+<item fileName="8_3.jpg" />
+<item fileName="8_4.jpg" />
+<item fileName="8_5.jpg" />
+<item fileName="8_6.jpg" />
+<item fileName="8_7.jpg" />
+<item fileName="8_8.jpg" />
+</item8>
+<item9 itemFolder="Item9/" itemTitle="Армения. Гарни `Симфония камней`. 2011">
+<item fileName="9_1.jpg" />
+<item fileName="9_2.jpg" />
+<item fileName="9_3.jpg" />
+<item fileName="9_4.jpg" />
+<item fileName="9_5.jpg" />
+<item fileName="9_6.jpg" />
+<item fileName="9_7.jpg" />
+<item fileName="9_8.jpg" />
+<item fileName="9_9.jpg" />
+<item fileName="9_10.jpg" />
+<item fileName="9_11.jpg" />
+<item fileName="9_12.jpg" />
+<item fileName="9_13.jpg" />
+<item fileName="9_14.jpg" />
+</item9>
+<item10 itemFolder="Item10/" itemTitle="Армения. Ереван. 2011">
+<item fileName="10_1.jpg" />
+<item fileName="10_2.jpg" />
+<item fileName="10_3.jpg" />
+<item fileName="10_4.jpg" />
+<item fileName="10_5.jpg" />
+<item fileName="10_6.jpg" />
+<item fileName="10_7.jpg" />
+<item fileName="10_8.jpg" />
+<item fileName="10_9.jpg" />
+<item fileName="10_10.jpg" />
+<item fileName="10_11.jpg" />
+<item fileName="10_12.jpg" />
+<item fileName="10_13.jpg" />
+<item fileName="10_14.jpg" />
+<item fileName="10_15.jpg" />
+<item fileName="10_16.jpg" />
+<item fileName="10_17.jpg" />
+<item fileName="10_18.jpg" />
+<item fileName="10_19.jpg" />
+</item10>
+<item11 itemFolder="Item11/" itemTitle="Армения. Озеро Севан. 2011">
+<item fileName="11_1.jpg" />
+<item fileName="11_2.jpg" />
+<item fileName="11_3.jpg" />
+<item fileName="11_4.jpg" />
+<item fileName="11_5.jpg" />
+<item fileName="11_6.jpg" />
+<item fileName="11_7.jpg" />
+</item11>
+<item12 itemFolder="Item12/" itemTitle="Армения. Вагаршапат. Резиденция Католикоса. Альбом 1. 2011">
+<item fileName="12_1.jpg" />
+<item fileName="12_2.jpg" />
+<item fileName="12_3.jpg" />
+<item fileName="12_4.jpg" />
+<item fileName="12_5.jpg" />
+<item fileName="12_6.jpg" />
+<item fileName="12_7.jpg" />
+<item fileName="12_8.jpg" />
+<item fileName="12_9.jpg" />
+</item12>
+<item13 itemFolder="Item13/" itemTitle="Армения. Вагаршапат. Резиденция Католикоса. Альбом 2. 2011">
+<item fileName="13_1.jpg" />
+<item fileName="13_2.jpg" />
+<item fileName="13_3.jpg" />
+<item fileName="13_4.jpg" />
+<item fileName="13_5.jpg" />
+<item fileName="13_6.jpg" />
+<item fileName="13_7.jpg" />
+</item13>
+<item14 itemFolder="Item14/" itemTitle="Армения. Вагаршапат. Резиденция Католикоса. Альбом 3. 2011">
+<item fileName="14_1.jpg" />
+<item fileName="14_2.jpg" />
+<item fileName="14_3.jpg" />
+<item fileName="14_4.jpg" />
+<item fileName="14_5.jpg" />
+<item fileName="14_6.jpg" />
+<item fileName="14_7.jpg" />
+</item14>
+<item15 itemFolder="Item15/" itemTitle="Прогулка на катере. 2012">
+<item fileName="15_1.jpg" />
+<item fileName="15_2.jpg" />
+<item fileName="15_3.jpg" />
+<item fileName="15_4.jpg" />
+<item fileName="15_5.jpg" />
+</item15>
+<item16 itemFolder="Item16/" itemTitle="Музейная экспозиция. Август 2012">
+<item fileName="16_1.jpg" />
+<item fileName="16_2.jpg" />
+<item fileName="16_3.jpg" />
+<item fileName="16_4.jpg" />
+<item fileName="16_5.jpg" />
+</item16>
+<item17 itemFolder="Item17/" itemTitle="Блики. Август 2012">
+<item fileName="17_1.jpg" />
+<item fileName="17_2.jpg" />
+<item fileName="17_3.jpg" />
+<item fileName="17_4.jpg" />
+</item17>
+<item18 itemFolder="Item18/" itemTitle="Кубок Кремля. Октябрь 2012">
+<item fileName="18_1.jpg" />
+<item fileName="18_2.jpg" />
+<item fileName="18_3.jpg" />
+<item fileName="18_4.jpg" />
+<item fileName="18_5.jpg" />
+<item fileName="18_6.jpg" />
+<item fileName="18_7.jpg" />
+<item fileName="18_8.jpg" />
+<item fileName="18_9.jpg" />
+<item fileName="18_10.jpg" />
+<item fileName="18_11.jpg" />
+<item fileName="18_12.jpg" />
+<item fileName="18_13.jpg" />
+<item fileName="18_14.jpg" />
+<item fileName="18_15.jpg" />
+<item fileName="18_16.jpg" />
+<item fileName="18_17.jpg" />
+<item fileName="18_18.jpg" />
+<item fileName="18_19.jpg" />
+<item fileName="18_20.jpg" />
+<item fileName="18_21.jpg" />
+<item fileName="18_22.jpg" />
+</item18>
+</gallery>
+

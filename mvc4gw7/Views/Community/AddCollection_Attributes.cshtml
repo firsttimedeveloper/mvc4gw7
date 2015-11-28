@@ -1,0 +1,51 @@
+﻿@model mvc4gw7.Models.MediaCollection
+
+@{
+    ViewBag.Title = "Сообщество";
+    ViewBag.Subtitle = "Добавить коллекцию. Создать описание";       
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.User</h2>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<div class="form_type_A">
+
+@using (Html.BeginForm("AddCollection_Attributes", "Community", FormMethod.Post))
+{
+
+    @Html.LabelFor(mgallery => mgallery.ShortTitle);<br />
+    @Html.EditorFor(mgallery => mgallery.ShortTitle);
+    @Html.ValidationMessageFor(mgallery => mgallery.ShortTitle);<br />
+
+    @Html.LabelFor(mgallery => mgallery.Title);<br />
+    @Html.EditorFor(mgallery => mgallery.Title);
+    @Html.ValidationMessageFor(mgallery => mgallery.Title);<br />
+                                                 
+    @Html.LabelFor(mgallery => mgallery.Description);<br />
+    @Html.EditorFor(mgallery => mgallery.Description);
+    @Html.ValidationMessageFor(mgallery => mgallery.Description);<br />
+    
+    @Html.HiddenFor(mgallery => mgallery.Location, new { Value = "MembersFiles/"})
+
+    <input type="submit" value="Создать" />
+}
+</div>
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("Список коллекций", "CollectionsList", "Community")
+    </h5>
+
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+
+</div>
+

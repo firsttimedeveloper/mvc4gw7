@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Главная";   
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+</div>
+
+<ul id="menu">
+
+    <li><h4>@Html.ActionLink("Аннотация", "About", "Home")</h4></li>
+    <br />
+ 
+    <li><h4>@Html.ActionLink("Экспозиция", "Index","Home")</h4>
+        <ul id="submenu">
+            <li><h4>@Html.ActionLink("Фотография", "List", "Photo")</h4></li>
+            <li><h4>@Html.ActionLink("Видео", "List", "Video")</h4></li>
+            <li><h4>@Html.ActionLink("Графика", "List", "Graphics")</h4></li>
+        </ul>
+    </li>
+    <br />
+
+    <li><h4>@Html.ActionLink("Услуги", "Products", "Home")</h4></li>
+    <li><h4>@Html.ActionLink("Контакты", "Contacts", "Home")</h4></li>
+    <br />
+
+    <li><h4>@Html.ActionLink("Сообщество", "CollectionsList", "Community")</h4></li>
+</ul>
+

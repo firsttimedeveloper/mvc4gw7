@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Администрирование";
+    ViewBag.Subtitle = "База данных";              
+}
+
+<div class="logo">
+    <img src="/Content/Logo.png" alt="Logo"/>
+</div>
+    
+<div class="title">
+    <h1>@ViewBag.Title</h1>
+    <h2>@ViewBag.Subtitle</h2>
+</div>
+
+<ul class="list">
+    <li><h4>@Html.ActionLink("Members", "MembersCRUD", "CRUD")</h4></li>
+    <li><h4>@Html.ActionLink("MediaCollections", "MediaCollectionsCRUD", "CRUD")</h4></li>
+    <li><h4>@Html.ActionLink("MediaElements", "MStillCRUD", "CRUD")</h4></li>
+</ul>
+
+
+<div class="footer">
+    <h5>
+        @Html.ActionLink("Закрыть аккаунт", "LogOff", "Account")
+    </h5>
+</div>
